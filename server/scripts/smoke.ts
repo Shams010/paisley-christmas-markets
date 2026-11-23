@@ -89,7 +89,7 @@ try {
   check('trader can delete their account', deleted.status === 200);
   made.splice(made.indexOf(trader.id), 1);
 
-  const gone = await call('GET', `/traders/${id}?market=${slug}`);
+  const gone = await call('GET', `/traders/${id}?market=${slug}&after=${Date.now()}`);
   check('their listing is removed', gone.status === 404);
 } catch (error) {
   check('smoke test ran to the end', false, String(error));
