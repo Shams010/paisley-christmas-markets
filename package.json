@@ -1,0 +1,38 @@
+{
+  "name": "paisley-christmas-markets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Market platform API (Express + Supabase) for the Paisley Christmas Markets proof of concept. The Vue frontend lives in client/.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file-if-exists=.env server/src/index.ts",
+    "start": "tsx --env-file-if-exists=.env server/src/index.ts",
+    "build": "node scripts/build-client.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:db": "supabase test db",
+    "create-admin": "tsx --env-file-if-exists=.env server/scripts/create-admin.ts",
+    "seed:demo": "tsx --env-file-if-exists=.env server/scripts/seed-demo.ts",
+    "smoke": "tsx --env-file-if-exists=.env server/scripts/smoke.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "@types/supertest": "^7.2.1",
+    "supertest": "^7.3.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  }
+}

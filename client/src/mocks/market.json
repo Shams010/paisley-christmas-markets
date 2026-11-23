@@ -1,0 +1,118 @@
+{
+    "id": "7d1f0b9e-3c1a-4c55-9b0a-5f6f0c1e2a01",
+    "slug": "paisley",
+    "name": "Paisley Christmas Markets",
+    "tagline": "Four festive weekends in the heart of Paisley",
+    "description": "Forty chalets and gazebos of local makers, food and drink in County Square, with live music from local choirs and bands.",
+    "location_name": "County Square, Paisley",
+    "location_postcode": "PA1 1BN",
+    "latitude": 55.8466,
+    "longitude": -4.4239,
+    "start_date": "2026-11-28",
+    "end_date": "2026-12-20",
+    "contact_email": "hello@paisleychristmasmarkets.example",
+    "primary_colour": "#7a1f2b",
+    "secondary_colour": "#1f4d3a",
+    "accent_colour": "#d9a441",
+    "logo_url": null,
+    "applications_open": true,
+    "privacy_policy_version": "2026-11",
+    "marketing_wording": "Email me news about future markets run by the organisers.",
+    "retention_unsuccessful_months": 6,
+    "retention_enquiry_months": 12,
+    "retention_audit_months": 12,
+    "categories": [
+        {
+            "code": "food_drink",
+            "label": "Food & drink",
+            "requires_food_registration": true
+        },
+        {
+            "code": "crafts_gifts",
+            "label": "Crafts & gifts",
+            "requires_food_registration": false
+        },
+        {
+            "code": "clothing_accessories",
+            "label": "Clothing & accessories",
+            "requires_food_registration": false
+        },
+        {
+            "code": "decorations",
+            "label": "Decorations",
+            "requires_food_registration": false
+        },
+        {
+            "code": "other",
+            "label": "Other",
+            "requires_food_registration": false
+        }
+    ],
+    "stall_types": [
+        {
+            "code": "gazebo_3x3",
+            "label": "Gazebo 3\u00d73 m",
+            "fee_per_day_pence": 4500
+        },
+        {
+            "code": "wooden_chalet",
+            "label": "Wooden chalet",
+            "fee_per_day_pence": 8500
+        },
+        {
+            "code": "food_van",
+            "label": "Food van",
+            "fee_per_day_pence": 12000
+        }
+    ],
+    "market_days": [
+        {
+            "id": 1,
+            "date": "2026-11-28",
+            "opens_at": "10:00",
+            "closes_at": "20:00"
+        },
+        {
+            "id": 2,
+            "date": "2026-11-29",
+            "opens_at": "11:00",
+            "closes_at": "18:00"
+        },
+        {
+            "id": 3,
+            "date": "2026-12-05",
+            "opens_at": "10:00",
+            "closes_at": "20:00"
+        },
+        {
+            "id": 4,
+            "date": "2026-12-06",
+            "opens_at": "11:00",
+            "closes_at": "18:00"
+        },
+        {
+            "id": 5,
+            "date": "2026-12-12",
+            "opens_at": "10:00",
+            "closes_at": "20:00"
+        },
+        {
+            "id": 6,
+            "date": "2026-12-13",
+            "opens_at": "11:00",
+            "closes_at": "18:00"
+        },
+        {
+            "id": 7,
+            "date": "2026-12-19",
+            "opens_at": "10:00",
+            "closes_at": "20:00"
+        },
+        {
+            "id": 8,
+            "date": "2026-12-20",
+            "opens_at": "11:00",
+            "closes_at": "18:00"
+        }
+    ]
+}

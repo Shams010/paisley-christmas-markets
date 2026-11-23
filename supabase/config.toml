@@ -1,0 +1,3 @@
+# Supabase CLI configuration (used by `supabase start`, `supabase db push` and `supabase test db`).
+# Only the project name is set; every other setting keeps the CLI's default.
+project_id = "paisley-christmas-markets"

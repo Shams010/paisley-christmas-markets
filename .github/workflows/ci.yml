@@ -1,0 +1,35 @@
+name: Tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+
+      # A complete local Supabase (database, auth, storage) inside the CI machine.
+      - uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - run: supabase start
+      - name: Database tests (access rules, workflow, retention)
+        run: supabase test db
+      - name: Write .env.test from the local stack
+        run: |
+          supabase status -o env > status.env
+          {
+            echo "SUPABASE_URL=$(grep '^API_URL=' status.env | cut -d= -f2- | tr -d '"')"
+            echo "SUPABASE_PUBLISHABLE_KEY=$(grep -E '^(PUBLISHABLE_KEY|ANON_KEY)=' status.env | head -1 | cut -d= -f2- | tr -d '"')"
+            echo "SUPABASE_SECRET_KEY=$(grep -E '^(SECRET_KEY|SERVICE_ROLE_KEY)=' status.env | head -1 | cut -d= -f2- | tr -d '"')"
+          } > .env.test
+      - name: API tests
+        run: npm test

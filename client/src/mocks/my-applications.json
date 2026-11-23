@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "market_id": "7d1f0b9e-3c1a-4c55-9b0a-5f6f0c1e2a01",
+        "market_slug": "paisley",
+        "trader_id": "1c06aba3-ef93-4e30-bfc4-b7b4ec5934cc",
+        "contact_name": "Aisha Rahman",
+        "phone": "07700 900100",
+        "business_name": "Gleniffer Candle Co.",
+        "postcode": "PA1 1BN",
+        "category": "crafts_gifts",
+        "category_label": "Crafts & gifts",
+        "description": "Hand-poured soy candles and wax melts in winter scents, made in small batches in Paisley.",
+        "stall_type": "gazebo_3x3",
+        "stall_type_label": "Gazebo 3\u00d73 m",
+        "needs_power": false,
+        "power_requirement": "none",
+        "uses_lpg": false,
+        "insurance_expiry": "2027-06-30",
+        "website_url": null,
+        "social_link": null,
+        "additional_requirements": null,
+        "food_registration_path": null,
+        "gas_safety_certificate_path": null,
+        "logo_path": null,
+        "is_over_18": true,
+        "accept_privacy_policy": true,
+        "status": "approved",
+        "admin_note": null,
+        "submitted_at": "2026-11-22T14:50:02.37266+00:00",
+        "updated_at": "2026-11-22T14:50:02.400426+00:00",
+        "decided_at": "2026-11-22T14:50:02.400426+00:00",
+        "market_days": [
+            "2026-12-05",
+            "2026-12-06"
+        ],
+        "allocations": [
+            {
+                "id": 1,
+                "date": "2026-12-05",
+                "stall": "C1",
+                "stall_id": 21,
+                "market_day_id": 3
+            },
+            {
+                "id": 2,
+                "date": "2026-12-06",
+                "stall": "C1",
+                "stall_id": 21,
+                "market_day_id": 4
+            }
+        ],
+        "logo_url": null
+    }
+]

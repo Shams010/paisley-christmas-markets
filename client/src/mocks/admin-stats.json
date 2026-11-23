@@ -1,0 +1,97 @@
+{
+    "power": {
+        "uses_lpg": 1,
+        "needs_power": 1
+    },
+    "by_day": [
+        {
+            "date": "2026-11-28",
+            "applications": 0,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        },
+        {
+            "date": "2026-11-29",
+            "applications": 0,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        },
+        {
+            "date": "2026-12-05",
+            "applications": 5,
+            "stalls_total": 40,
+            "stalls_allocated": 4
+        },
+        {
+            "date": "2026-12-06",
+            "applications": 5,
+            "stalls_total": 40,
+            "stalls_allocated": 4
+        },
+        {
+            "date": "2026-12-12",
+            "applications": 1,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        },
+        {
+            "date": "2026-12-13",
+            "applications": 1,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        },
+        {
+            "date": "2026-12-19",
+            "applications": 1,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        },
+        {
+            "date": "2026-12-20",
+            "applications": 1,
+            "stalls_total": 40,
+            "stalls_allocated": 0
+        }
+    ],
+    "by_status": {
+        "approved": 4,
+        "rejected": 1,
+        "submitted": 1,
+        "under_review": 1,
+        "changes_requested": 1
+    },
+    "by_category": [
+        {
+            "label": "Food & drink",
+            "total": 3,
+            "approved": 1,
+            "category": "food_drink"
+        },
+        {
+            "label": "Crafts & gifts",
+            "total": 3,
+            "approved": 1,
+            "category": "crafts_gifts"
+        },
+        {
+            "label": "Clothing & accessories",
+            "total": 1,
+            "approved": 1,
+            "category": "clothing_accessories"
+        },
+        {
+            "label": "Decorations",
+            "total": 1,
+            "approved": 1,
+            "category": "decorations"
+        },
+        {
+            "label": "Other",
+            "total": 0,
+            "approved": 0,
+            "category": "other"
+        }
+    ],
+    "open_enquiries": 0,
+    "total_applications": 8
+}

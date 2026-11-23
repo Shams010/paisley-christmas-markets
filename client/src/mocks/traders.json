@@ -1,0 +1,82 @@
+[
+    {
+        "id": 4,
+        "business_name": "Abbey Bauble Works",
+        "category": "decorations",
+        "category_label": "Decorations",
+        "description": "Hand-painted glass baubles and wooden tree decorations, personalised while you wait.",
+        "website_url": null,
+        "social_link": null,
+        "stalls": [
+            {
+                "date": "2026-12-05",
+                "stall": "A4"
+            },
+            {
+                "date": "2026-12-06",
+                "stall": "A4"
+            }
+        ],
+        "logo_url": null
+    },
+    {
+        "id": 1,
+        "business_name": "Gleniffer Candle Co.",
+        "category": "crafts_gifts",
+        "category_label": "Crafts & gifts",
+        "description": "Hand-poured soy candles and wax melts in winter scents, made in small batches in Paisley.",
+        "website_url": null,
+        "social_link": null,
+        "stalls": [
+            {
+                "date": "2026-12-05",
+                "stall": "C1"
+            },
+            {
+                "date": "2026-12-06",
+                "stall": "C1"
+            }
+        ],
+        "logo_url": null
+    },
+    {
+        "id": 2,
+        "business_name": "Seedhill Street Food",
+        "category": "food_drink",
+        "category_label": "Food & drink",
+        "description": "Loaded flatbreads, haggis bon bons and hot chocolate served from a converted horse box.",
+        "website_url": null,
+        "social_link": null,
+        "stalls": [
+            {
+                "date": "2026-12-05",
+                "stall": "D1"
+            },
+            {
+                "date": "2026-12-06",
+                "stall": "D1"
+            }
+        ],
+        "logo_url": null
+    },
+    {
+        "id": 3,
+        "business_name": "Thread & Thistle Knitwear",
+        "category": "clothing_accessories",
+        "category_label": "Clothing & accessories",
+        "description": "Lambswool scarves, hats and mittens knitted in Renfrewshire using Paisley-pattern colourways.",
+        "website_url": null,
+        "social_link": null,
+        "stalls": [
+            {
+                "date": "2026-12-05",
+                "stall": "A3"
+            },
+            {
+                "date": "2026-12-06",
+                "stall": "A3"
+            }
+        ],
+        "logo_url": null
+    }
+]

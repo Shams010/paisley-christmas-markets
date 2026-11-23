@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Getting here",
+        "body": "County Square is two minutes' walk from Paisley Gilmour Street station. Blue badge parking is available on Gilmour Street.",
+        "published_at": "2026-11-09T09:00:00+00:00"
+    },
+    {
+        "id": 2,
+        "title": "Opening weekend line-up announced",
+        "body": "Local choirs open the market on Saturday 28 November at 12 noon, followed by the lights switch-on at 5pm.",
+        "published_at": "2026-11-02T09:00:00+00:00"
+    },
+    {
+        "id": 4,
+        "title": "Trader applications are open",
+        "body": "Apply online for a chalet, gazebo or food van pitch. We aim to reply to every application within ten working days.",
+        "published_at": "2026-10-01T10:00:00+01:00"
+    }
+]

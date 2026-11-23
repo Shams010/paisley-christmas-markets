@@ -1,0 +1,19 @@
+{
+    "error": "validation_failed",
+    "message": "Some fields need attention.",
+    "fields": {
+        "business_name": "Business name is required",
+        "contact_name": "Contact name is required",
+        "phone": "Phone number is required",
+        "postcode": "Enter a valid UK postcode",
+        "category": "Category is required",
+        "description": "Description is required",
+        "stall_type": "Stall type is required",
+        "needs_power": "Say whether you need power",
+        "power_requirement": "Choose a power requirement",
+        "market_days": "Choose at least one day",
+        "insurance_expiry": "Insurance expiry date is required",
+        "is_over_18": "You must confirm you are 18 or over",
+        "accept_privacy_policy": "You must accept the privacy notice"
+    }
+}
